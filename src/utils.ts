@@ -3,5 +3,5 @@ function getRandomInt(min: number, max: number) {
   const newMax = Math.floor(max);
   return Math.floor(Math.random() * (newMax - newMin)) + newMin;
 }
-
+// First Commit
 export default getRandomInt;
